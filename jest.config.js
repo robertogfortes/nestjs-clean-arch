@@ -20,6 +20,7 @@ module.exports = {
           ...compilerOptions,
           module: 'commonjs',
           moduleResolution: 'node',
+          ignoreDeprecations: '5.0',
         },
       },
     ],
